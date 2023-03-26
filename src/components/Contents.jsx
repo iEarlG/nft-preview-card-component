@@ -4,6 +4,7 @@ import nftImage from '../assets/images/image-equilibrium.jpg';
 import nftAuthor from '../assets/images/image-avatar.png';
 import ethIcon from '../assets/images/icon-ethereum.svg';
 import nftClock from '../assets/images/icon-clock.svg';
+import nftView from '../assets/images/icon-view.svg';
 
 const Contents = () => {
   return (
@@ -33,6 +34,11 @@ const Contents = () => {
             <span className="author-details">Creation of <span>Jules Wyvern</span></span>
           </div>
         </div>
+      </div>
+
+      <div className="attribution">
+        Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="no-referrer"> Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/iEarlG" target="_blank" rel="no-referrer">Earl A. Villapaz</a>.
       </div>
     </main>
   )

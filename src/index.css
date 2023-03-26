@@ -17,7 +17,8 @@
   width: 100%;
   background-color: hsl(217, 54%, 11%);
   display: grid;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .nft-card { 
@@ -34,10 +35,12 @@
   background-repeat: no-repeat;
   height: 300px;
   width: 300px;
-  margin-bottom: 18px;
+  border-radius: 10px;
+  margin-bottom: 25px;
 }
-.nft-image:hover {
-  opacity: 0.3;
+.nft-image img:hover { 
+  opacity: 0.5;
+  cursor: pointer;
 }
 
  .nft-image img { 
@@ -115,9 +118,25 @@
 }
 
 .attribution {
-  display: flex;
-  justify-content: center;
-  font-size: 12px;
+  margin: -40px 0px;
+  font-size: 14px;
+  color: #4e6380;
   text-align: center;
+}
+.attribution a {
   color: #00BCD4;
+}
+
+@media screen and (max-width: 375px) {
+  /* .container {
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  } */
+  .attribution { 
+    display: none;
+  }
 }

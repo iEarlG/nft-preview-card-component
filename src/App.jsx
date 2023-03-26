@@ -4,7 +4,9 @@ import Contents from './components/Contents';
 const App = () => {
   return (
     <div>
-      <Contents />
+      <div>
+        <Contents />
+      </div>
 
       <div className="attribution">
         Challenge by<a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="no-referrer"> Frontend Mentor</a>. 

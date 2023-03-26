@@ -13,6 +13,7 @@ const Contents = () => {
         <div className="nft-card">
           <div className="nft-image">
             <img src={nftImage} alt="nft_image" />
+            {/* <div className="icon-view"><img src={nftView} aalt="icon-view" /></div> */}
           </div>
 
           <h1 className="nft-title">Equilibrium #3429</h1>

@@ -30,9 +30,10 @@
 }
 
 .nft-image { 
-  background-image: url(./assets/images/icon-view.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./assets/images/icon-view.svg), #00ffff7d;
+  background-repeat: repeat, repeat;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
   height: 300px;
   width: 300px;
   border-radius: 10px;
@@ -92,6 +93,9 @@
   display: flex;
   gap: 5px;
 }
+.nft-time img { 
+  width: 20px;
+}
 
 .nft-author { 
   height: 60px;
@@ -111,6 +115,9 @@
 }
 .author-details { 
   color: #4e6380;
+}
+.author-details span { 
+  color: #e3f2ff;
 }
 .author-details span:hover { 
   color: #00BCD4;

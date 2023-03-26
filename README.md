@@ -27,9 +27,10 @@ Users should be able to:
 
 ### Screenshot
 
-![nft-preview-card-(Desktop)-EARL](https://user-images.githubusercontent.com/91045673/227768138-b4572881-22f0-4adc-865f-bd058369c6ed.png)
-![nft-preview-card-(iPhone SE)-EARL](https://user-images.githubusercontent.com/91045673/227768142-451fc350-f8d8-4af7-9458-4a075450cd54.png)
-
+<p align="right">Mobile size (iPhone SE | 375px) </p>
+<img src="https://user-images.githubusercontent.com/91045673/227768142-451fc350-f8d8-4af7-9458-4a075450cd54.png" height="500" align="right" />
+<p align="left">Desktop size </p>
+<img src="https://user-images.githubusercontent.com/91045673/227768138-b4572881-22f0-4adc-865f-bd058369c6ed.png" width="500" align="center" />
 
 ### Links
 
